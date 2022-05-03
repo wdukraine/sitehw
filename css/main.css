@@ -1,0 +1,169 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #378fd9;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 900px;
+	font-size: 37px;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(77,192,254,1);
+	background: -moz-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	color: #fff;
+	padding-bottom: 144px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 130px;
+	width: 560px;
+}
+
+.title {
+	line-height: 1.45em;
+}
+
+.title span {
+	font-size: 59px;
+	line-height: 1.5em;
+}
+
+.intro {
+	font-family: 'Open Sans', sans-serif;
+	width: 400px;
+	font-size: 16px;
+	margin-bottom: 45px;
+}
+
+.btn {
+	background: #ffd429;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	width: 222px;
+	padding: 22px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #efc005;
+}
+
+.bags {
+	margin-top: 30px;
+}
+
+.fac {
+	color: #000;
+	padding-top: 110px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	text-align: center;
+	font-size: 30px;
+}
+
+.memories {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 74px;
+}
+
+.mem {
+	width: 295px;
+	background: url('../img/time.jpg') no-repeat center top;
+	padding-top: 90px;
+	text-align: center;
+}
+
+.mem-title {
+	font-size: 19px;
+}
+
+.mem-text {
+	margin-top: 19px;
+}
+
+.mem-beach {
+	width: 265px;
+	background: url('../img/beach.jpg') no-repeat center top;
+}
+
+.mem-launch {
+	width: 300px;
+	background: url('../img/launch.jpg') no-repeat center top;
+}
+
+.mail {
+	color: #000;
+	background: #ecf3f8;
+	padding-top: 100px;
+	padding-bottom: 102px;
+}
+
+.form {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.input {
+	width: 343px;
+	border: 1px solid #d0d3d5;
+	font-size: 15px;
+	height: 48px;
+	padding-left: 24px;
+	margin: 10px auto;
+}
+
+.btn-form {
+	margin: 10px auto;
+	width: 343px;
+	border: 0;
+	cursor: pointer;
+	display: inline;
+}
+
+.footer {
+	padding: 60px 0;
+	background: #164d7a;
+}
+
+.credits {
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+}
